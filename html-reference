@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+      text-align: left;
+    }
+  </style>
+    <table style="width:100%">
+    <tr>
+      <th>Name</th>
+      <th>Start Tag</th>
+      <th>End Tag</th>
+      <th>Example</th>
+    </tr>
+    <tr>
+      <td><a href="#C1">HTML</a></td>
+      <td>&lt;html&gt;</td>
+      <td>&lt;/html&gt;</td>
+      <td>&lt;html&gt;body&lt;/html&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C2">Header</a></td>
+      <td>&lt;head&gt;</td>
+      <td>&lt;/head&gt;</td>
+      <td>&lt;head&gt;body&lt;/head&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C3">Title</a></td>
+      <td>&lt;title&gt;</td>
+      <td>&lt;/title&gt;</td>
+      <td>&lt;title&gt;Title Name&lt;/title&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C4">Body</a></td>
+      <td>&lt;body&gt;</td>
+      <td>&lt;/body&gt;</td>
+      <td>&lt;body&gt;all the code that shows up on the website&lt;/body&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C5">Headings</a></td>
+      <td>&lt;head&gt;</td>
+      <td>&lt;/head&gt;</td>
+      <td>&lt;head&gt;Stuff like stylesheets&lt;/head&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C6">Paragraph</a></td>
+      <td>&lt;p&gt;</td>
+      <td>&lt;/p&gt;</td>
+      <td>&lt;p&gt;Paragraph&lt;/p&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C7">Breaks</a></td>
+      <td>&lt;br&gt;</td>
+      <td>none</td>
+      <td>This is the first line&lt;br&gt;This is on a new line</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C8">Lines</a></td>
+      <td>&lt;hr&gt;</td>
+      <td>none</td>
+      <td>This is a line&lt;hr&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C9">Comments</a></td>
+      <td>&lt;!--</td>
+      <td>--&gt;</td>
+      <td>&lt;!--This is a comment--&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C10">Links</a></td>
+      <td>&lt;a href="(Your Link)"&gt;</td>
+      <td>&lt;What you want it to be called&gt;</td>
+      <td>&lt;a href="www.google.com"&gt;&lt;google&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C11">Images</a></td>
+      <td>&lt;img src="(any link)"&gt;</td>
+      <td>none</td>
+      <td>&lt;img src=""http://christianitymalaysia.com/wp/wp-content
+        /uploads/2013/10/iStock_000003630155XSmall-400x297.jpg"&gt;</td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C12">Lists</a></td>
+      <td>&lt;ul&gt; and &lt;ol&gt; define the table, &lt;li&gt; makes the list entry</td>
+      <td>&lt;/ul&gt; and &lt;/ol&gt; end the table, &lt;/li&gt; ends list entry</td>
+      <td>
+        <pre>
+        &lt;ul&gt;
+          &lt;li&gt;Item 1&lt;/li&gt;
+          &lt;li&gt;Item 2&lt;/li&gt;
+        &lt;ul&gt;
+        </pre>
+      </td>
+    </tr>
+   
+   
+    <tr>
+      <td><a href="#C13">Tables</a></td>
+      <td>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;</td>
+      <td>&lt;/table&gt;, &lt;/tr&gt;, &lt;/th&gt;, &lt;/td&gt;</td>
+      <td>
+        <pre>
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;First Header&lt;/th&gt;
+            &lt;th&gt;Second Header&lt;/th&gt;
+            &lt;th&gt;Third Header&lt;/th&gt;
+          &lt;/tr&gt;
+          
+          &lt;tr&gt;
+            &lt;td&gt;First Data&lt;/td&gt;
+            &lt;td&gt;Second Data&lt;/td&gt;
+            &lt;td&gt;Third Data&lt;/td&gt;
+          &lt;/tr&gt;
+          
+          &lt;tr&gt;
+            &lt;td&gt;First Data&lt;/td&gt;
+            &lt;td&gt;Second Data&lt;/td&gt;
+            &lt;td&gt;Third Data&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        </pre>
+      </td>
+    </tr>
+    
+    <tr>
+      <td><a href="#C14">Blocks</a></td>
+      <td>&lt;div&gt;</td>
+      <td>&lt;div&gt;</td>
+      <td>
+        <pre>
+          &lt;div style= "font-size:300%;"&gt;&lt;p&gt;This text is changed&lt;/p&gt;&lt;/div&gt;
+        </pre>
+      </td>
+    </tr>
+  </table>
+    
+    
+    
+    
+    
+    <h1 id="C1">HTML</h1>
+      <h3>Description</h3>
+      <pre>
+        Starts the documnet
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;html&gt;
+        Content: All of your html code
+        End Tag: &lt;/html&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;html&gt;
+        Your code
+        &lt;/html&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        None
+      </pre>
+      
+      <a href="https://www.w3schools.com/tags/tag_html.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C2">Headers</h1>
+      <h3>Description</h3>
+      <pre>
+        Allows you to clarify special elements like stylesheets
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;head&gt;
+        Content: Title, stylesheets, and other main components
+        End Tag: &lt;/head&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;head&gt;
+        Stuff
+        &lt;/head&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        None
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_head.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C3">Titles</h1>
+      <h3>Description</h3>
+      <pre>
+        Makes a title at the top of the page
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;title&gt;
+        Content: The title of your website
+        End Tag: &lt;/title&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;title&gt;This is a title&lt;/title&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        <strong>This is a title</strong>
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_title.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C4">Body</h1>
+      <h3>Description</h3>
+      <pre>
+        This is where all the code for what shows up on the actual website is written
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;body&gt;
+        Content: Your code to make the website looks
+        End Tag: &lt;/body&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;body&gt;
+        Your code to make the website looks
+        &lt;/body&gt;
+        
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        None
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_body.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C5">Headings</h1>
+      <h3>Description</h3>
+      <pre>
+        This is used to start a new topic or something like that
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;h(1-6)&gt;
+        Content: The heading
+        End Tag: &lt;/h(1-6)&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+         &lt;h(1-6)&gt;New Topic&lt;/h(1-6)&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        New Topic
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_hn.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C6">Paragraph</h1>
+      <h3>Description</h3>
+      <pre>
+        This is used for the basic text in a document
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;p&gt;
+        Content: Your paragraph
+        End Tag: &lt;/p&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;p&gt;This is a paragraph&lt;/p&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        This is a paragraph
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_p.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C7">Breaks</h1>
+      <h3>Description</h3>
+      <pre>
+        This is used to start a new line in a paragraph
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;br&gt;
+        Content: none
+        End Tag: none;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;p&gt;This is a paragraph&lt;br&gt;and this is on a new line&lt;/p&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        This is a paragraph<br>        and this is on a new line
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_br.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C8">Lines</h1>
+      <h3>Description</h3>
+      <pre>
+        This creates a line across the website
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;hr&gt;
+        Content: none
+        End Tag: none
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;hr&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        <hr>
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_hr.asp">Link to W3schools</a>
+      <hr>
+     
+    <h1 id="C9">Comments</h1>
+      <h3>Description</h3>
+      <pre>
+        This is used to make comments on your work, and
+        the comments dont show up on your website
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;!-- 
+        Content: Your comment
+        End Tag: --&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;!--This is a comment--&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        None
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_comment.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C10">Links</h1>
+      <h3>Description</h3>
+      <pre>
+        These are used to link other pages to your website
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;a href="(Your link)"&gt;What you want it to be
+        called&lt;/a&gt;
+        Content: The text that the link will be under
+        End Tag: &lt;/a&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;a href="www.google.com"&gt;Link&lt;/a&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        <a href="www.google.com">Link</a>
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_a.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C11">Images</h1>
+      <h3>Description</h3>
+      <pre>
+        This adds images to your website using links
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;img src="(The link to your image)"&gt;
+        Content: none
+        End Tag: none
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;img src="http://christianitymalaysia.com/wp/wp-content
+        /uploads/2013/10/iStock_000003630155XSmall-400x297.jpg"&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        <img src="http://christianitymalaysia.com/wp/wp-content/uploads/2013/10/iStock_000003630155XSmall-400x297.jpg">
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_img.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C12">Lists</h1>
+      <h3>Description</h3>
+      <pre>
+        This is used to make a list of items on your website
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;ul&gt; and &lt;ol&gt; define the table, &lt;li&gt; makes the list entry
+        Content: The list items
+        End Tag: &lt;/ul&gt; and &lt;/ol&gt; &lt;/li&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        
+        &lt;ul&gt;
+        &lt;li&gt;item 1&lt;/li&gt;
+        &lt;li&gt;item 2&lt;/li&gt;
+        &lt;ul&gt;
+        
+        &lt;ol&gt;
+        &lt;li&gt;item 1&lt;/li&gt;
+        &lt;li&gt;item 2&lt;/li&gt;
+        &lt;ol&gt;
+        
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+        </ul>
+        
+        <ol>
+          <li>item 1</li>
+          <li>item 2</li>
+        </ol>
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_li.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C13">Tables</h1>
+      <h3>Description</h3>
+      <pre>
+        Tis is used to make a table on your website
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;
+        Content: The table headers and the table data
+        End Tag: &lt;/table&gt;, &lt;/tr&gt;, &lt;/th&gt;, &lt;/td&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;First Header&lt;/th&gt;
+            &lt;th&gt;Second Header&lt;/th&gt;
+            &lt;th&gt;Third Header&lt;/th&gt;
+          &lt;/tr&gt;
+          
+          &lt;tr&gt;
+            &lt;td&gt;First Data&lt;/td&gt;
+            &lt;td&gt;Second Data&lt;/td&gt;
+            &lt;td&gt;Third Data&lt;/td&gt;
+          &lt;/tr&gt;
+          
+          &lt;tr&gt;
+            &lt;td&gt;First Data&lt;/td&gt;
+            &lt;td&gt;Second Data&lt;/td&gt;
+            &lt;td&gt;Third Data&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        <table>
+          <tr>
+            <th>First Header</th>
+            <th>Second Header</th>
+            <th>Third Header</th>
+          </tr>
+
+          <tr>
+            <th>First Data</th>
+            <th>Second Data</th>
+            <th>Third Data</th>
+          </tr>
+          
+          <tr>
+            <th>First Data</th>
+            <th>Second Data</th>
+            <th>Third Data</th>
+          </tr>
+        </table>
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_table.asp">Link to W3schools</a>
+      <hr>
+      
+    <h1 id="C14">Blocks</h1>
+      <h3>Description</h3>
+      <pre>
+        Used to format block of stuff
+      </pre>
+      <h3>Syntax</h3>
+      <pre>
+        Start Tag: &lt;div&gt;
+        Content: Stuff you want to be in the block
+        End Tag: &lt;/div&gt;
+      </pre>
+      <h3>Example</h3>
+      <pre>
+        &lt;div style="font-size:300%;"&gt;
+        Stuff
+        &lt;/div&gt;
+      </pre>
+      <h3>Display</h3>
+      <pre>
+        <div style="font-size:300%;">
+        Stuff
+        </div>
+      </pre>
+      <a href="https://www.w3schools.com/tags/tag_div.asp">Link to W3schools</a>
+      <hr>
+      
+    
+    
+  </body>
+</html>
