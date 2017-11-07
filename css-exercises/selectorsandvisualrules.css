@@ -1,12 +1,41 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+p {
+  font-family: Arial;
+}
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+h1 {
+  color: maroon;
+}
 
-</body>
-</html>
+h2.destination {
+  font-family: cursive;
+}
+
+.title {
+  color: teal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.description h5 {
+  color: teal;
+}
+h5{
+  color: rebeccapurple !important;
+}
+h5,
+p {
+  font-family: Georgia;
+}
