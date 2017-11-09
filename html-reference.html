@@ -7,24 +7,18 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    
-  <style>
-    table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-    }
-    th, td {
-      padding: 5px;
-      text-align: left;
-    }
-  </style>
-    <table style="width:100%">
-    <tr>
+  <h1 class= "center">Reference Page</h1>
+
+
+<!-- Makes the index table-->
+    <table class="tableFill">
+    <tr class= "tableBack">
       <th>Name</th>
       <th>Start Tag</th>
       <th>End Tag</th>
       <th>Example</th>
     </tr>
+
     <tr>
       <td><a href="#C1">HTML</a></td>
       <td>&lt;html&gt;</td>
@@ -105,8 +99,8 @@
     
     <tr>
       <td><a href="#C12">Lists</a></td>
-      <td>&lt;ul&gt; and &lt;ol&gt; define the table, &lt;li&gt; makes the list entry</td>
-      <td>&lt;/ul&gt; and &lt;/ol&gt; end the table, &lt;/li&gt; ends list entry</td>
+      <td>&lt;ul&gt; &lt;ol&gt; &lt;li&gt;</td>
+      <td>&lt;/ul&gt; &lt;/ol&gt; &lt;/li&gt;</td>
       <td>
         <pre>
         &lt;ul&gt;
@@ -136,12 +130,7 @@
             &lt;td&gt;Second Data&lt;/td&gt;
             &lt;td&gt;Third Data&lt;/td&gt;
           &lt;/tr&gt;
-          
-          &lt;tr&gt;
-            &lt;td&gt;First Data&lt;/td&gt;
-            &lt;td&gt;Second Data&lt;/td&gt;
-            &lt;td&gt;Third Data&lt;/td&gt;
-          &lt;/tr&gt;
+
         &lt;/table&gt;
         </pre>
       </td>
@@ -157,38 +146,44 @@
         </pre>
       </td>
     </tr>
+
   </table>
     
     
-    
-    
-    
-    <h1 id="C1">HTML</h1>
+<!--Starts with the sections-->
+<!--1st section-->
+    <h2 id="C1">HTML</h2>
+      <div class= "grayBack">
       <h3>Description</h3>
       <pre>
-        Starts the documnet
+        Starts the document
       </pre>
       <h3>Syntax</h3>
       <pre>
         Start Tag: &lt;html&gt;
         Content: All of your html code
         End Tag: &lt;/html&gt;
+      
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;html&gt;
         Your code
         &lt;/html&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         None
       </pre>
       
       <a href="https://www.w3schools.com/tags/tag_html.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C2">Headers</h1>
+<!--2nd section-->      
+    <h2 id="C2">Headers</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         Allows you to clarify special elements like stylesheets
@@ -199,20 +194,24 @@
         Content: Title, stylesheets, and other main components
         End Tag: &lt;/head&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;head&gt;
         Stuff
         &lt;/head&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         None
       </pre>
       <a href="https://www.w3schools.com/tags/tag_head.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C3">Titles</h1>
+<!--3rd section-->      
+    <h2 id="C3">Titles</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         Makes a title at the top of the page
@@ -223,18 +222,22 @@
         Content: The title of your website
         End Tag: &lt;/title&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;title&gt;This is a title&lt;/title&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         <strong>This is a title</strong>
       </pre>
       <a href="https://www.w3schools.com/tags/tag_title.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C4">Body</h1>
+<!--4th section-->      
+    <h2 id="C4">Body</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         This is where all the code for what shows up on the actual website is written
@@ -245,6 +248,7 @@
         Content: Your code to make the website looks
         End Tag: &lt;/body&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;body&gt;
@@ -252,14 +256,17 @@
         &lt;/body&gt;
         
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         None
       </pre>
       <a href="https://www.w3schools.com/tags/tag_body.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C5">Headings</h1>
+<!--5th section-->      
+    <h2 id="C5">Headings</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         This is used to start a new topic or something like that
@@ -270,18 +277,22 @@
         Content: The heading
         End Tag: &lt;/h(1-6)&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
          &lt;h(1-6)&gt;New Topic&lt;/h(1-6)&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         New Topic
       </pre>
       <a href="https://www.w3schools.com/tags/tag_hn.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C6">Paragraph</h1>
+<!--6th section-->      
+    <h2 id="C6">Paragraph</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         This is used for the basic text in a document
@@ -292,18 +303,22 @@
         Content: Your paragraph
         End Tag: &lt;/p&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;p&gt;This is a paragraph&lt;/p&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         This is a paragraph
       </pre>
       <a href="https://www.w3schools.com/tags/tag_p.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C7">Breaks</h1>
+<!--7th section-->      
+    <h2 id="C7">Breaks</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         This is used to start a new line in a paragraph
@@ -314,18 +329,22 @@
         Content: none
         End Tag: none;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;p&gt;This is a paragraph&lt;br&gt;and this is on a new line&lt;/p&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         This is a paragraph<br>        and this is on a new line
       </pre>
       <a href="https://www.w3schools.com/tags/tag_br.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C8">Lines</h1>
+<!--8th section-->      
+    <h2 id="C8">Lines</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         This creates a line across the website
@@ -336,18 +355,22 @@
         Content: none
         End Tag: none
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;hr&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         <hr>
       </pre>
       <a href="https://www.w3schools.com/tags/tag_hr.asp">Link to W3schools</a>
+      </div>
       <hr>
-     
-    <h1 id="C9">Comments</h1>
+<!--9th section-->     
+    <h2 id="C9">Comments</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         This is used to make comments on your work, and
@@ -359,18 +382,22 @@
         Content: Your comment
         End Tag: --&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;!--This is a comment--&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         None
       </pre>
       <a href="https://www.w3schools.com/tags/tag_comment.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C10">Links</h1>
+<!--10th section-->      
+    <h2 id="C10">Links</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         These are used to link other pages to your website
@@ -382,18 +409,22 @@
         Content: The text that the link will be under
         End Tag: &lt;/a&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;a href="www.google.com"&gt;Link&lt;/a&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         <a href="www.google.com">Link</a>
       </pre>
       <a href="https://www.w3schools.com/tags/tag_a.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C11">Images</h1>
+<!--11th section-->      
+    <h2 id="C11">Images</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         This adds images to your website using links
@@ -404,19 +435,23 @@
         Content: none
         End Tag: none
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;img src="http://christianitymalaysia.com/wp/wp-content
         /uploads/2013/10/iStock_000003630155XSmall-400x297.jpg"&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         <img src="http://christianitymalaysia.com/wp/wp-content/uploads/2013/10/iStock_000003630155XSmall-400x297.jpg">
       </pre>
       <a href="https://www.w3schools.com/tags/tag_img.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C12">Lists</h1>
+<!--12th section-->      
+    <h2 id="C12">Lists</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         This is used to make a list of items on your website
@@ -427,6 +462,7 @@
         Content: The list items
         End Tag: &lt;/ul&gt; and &lt;/ol&gt; &lt;/li&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         
@@ -441,22 +477,24 @@
         &lt;ol&gt;
         
       </pre>
+      </div>
       <h3>Display</h3>
-      <pre>
+
         <ul>
           <li>item 1</li>
           <li>item 2</li>
         </ul>
-        
         <ol>
           <li>item 1</li>
           <li>item 2</li>
         </ol>
-      </pre>
+
       <a href="https://www.w3schools.com/tags/tag_li.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C13">Tables</h1>
+<!--13th section-->      
+    <h2 id="C13">Tables</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         Tis is used to make a table on your website
@@ -467,6 +505,7 @@
         Content: The table headers and the table data
         End Tag: &lt;/table&gt;, &lt;/tr&gt;, &lt;/th&gt;, &lt;/td&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;table&gt;
@@ -489,6 +528,7 @@
           &lt;/tr&gt;
         &lt;/table&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         <table>
@@ -512,9 +552,11 @@
         </table>
       </pre>
       <a href="https://www.w3schools.com/tags/tag_table.asp">Link to W3schools</a>
+      </div>
       <hr>
-      
-    <h1 id="C14">Blocks</h1>
+<!--14th section-->      
+    <h2 id="C14">Blocks</h2>
+    <div class= "grayBack">
       <h3>Description</h3>
       <pre>
         Used to format block of stuff
@@ -525,12 +567,14 @@
         Content: Stuff you want to be in the block
         End Tag: &lt;/div&gt;
       </pre>
+      <div class="popOut insideBox" >
       <h3>Example</h3>
       <pre>
         &lt;div style="font-size:300%;"&gt;
         Stuff
         &lt;/div&gt;
       </pre>
+      </div>
       <h3>Display</h3>
       <pre>
         <div style="font-size:300%;">
@@ -538,9 +582,10 @@
         </div>
       </pre>
       <a href="https://www.w3schools.com/tags/tag_div.asp">Link to W3schools</a>
+      </div>
       <hr>
       
     
-    
+
   </body>
 </html>
