@@ -1,1 +1,53 @@
+body {
+  font-family: Georgia;
+}
+/*Center aligns the Title*/
+.center{
+  text-align: center;
+  font-family: Georgia;
+}
+/*Set the color for the table headers*/
+.tableBack{
+  background: #2F91DE;
+  font-family: Georgia;
+}
+/*Puts a gradient image behind the table*/
+.tableFill{
+  width:100%;
+  background-image: url(http://cdn.pcwallart.com/images/light-blue-background-wallpaper-1.jpg);
+}
+/*Puts all the h2s in and blue box*/
+h2 {
+  background-color: #6EA0E4;
+  height: 25px;
+  text-align: center;
+  padding: 25px;
+  border: .5px solid black;
+  margin-top: 50px;
+}
+
+/*Formats the table*/
+    table, th, td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+      text-align: left;
+    }
+/*Sets the shadow and the the main background for examples*/  
+.popOut{
+  padding: 12px;
+  background-color: #B6D1F7;
+  box-shadow: 8px 8px 2px darkgrey;
+}
+/*Whites out the inside of example box and only works for pre tags*/
+.insideBox pre{
+  background-color:#EAF3FF;
+  padding: 12px;
+  border-left: 3px solid #418FF7;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 
