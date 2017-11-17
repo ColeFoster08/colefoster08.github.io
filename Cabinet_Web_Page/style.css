@@ -1,0 +1,92 @@
+.content {
+  background-color: #E2E2E2;
+}
+.imgfill { 
+  background: url(https://wallpaperscraft.com/image/wood_background_texture_36573_1600x900.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.imgfillhead{ 
+  background: url(http://apartments-terchova.com/wp-content/uploads/pozadie2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.whiteText{
+  color: #EFEFEE;
+}
+
+.content p {
+  font-family:"Ariel", sans-serif;
+  color:black;
+  font-size: 18px;
+}
+
+img {
+  width:100%;
+}
+
+.main{
+  color: black;
+  border: 2px solid black;
+  background-color: #ECEBEB;
+  padding: 10px;
+  width: 350px;
+  box-shadow: 4px 4px 2px #793E16;
+  
+}
+.sidemain{
+  color: black;
+  background-color: #ECEBEB;
+  padding: 10px;
+  box-shadow: 4px 4px 2px gray;
+  
+}
+.text{
+  border: 2px solid black;
+  background-color: #ECEBEB;
+  padding: 10px;
+}
+.side{
+  margin-top: 104px;
+  background-color: #ECEBEB;
+  border: 2px solid black;
+  padding-bottom: 5%;
+}
+
+table,th, td {
+    border: 2px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+    width: 99%;
+
+}
+th{
+  background-color:#C4AB9A;
+}
+
+.list{
+  color: black;
+  padding: 25px;
+  box-shadow: 4px 4px 2px gray;
+  
+}
+.video{
+  margin-left: 22%;
+    width:55%;
+    height: 99%;
+}
+
+.imgconstrain{
+  margin-left:13%;
+  width: 75%;
+  height: 75%;
+  
+}
+
+
+
+
